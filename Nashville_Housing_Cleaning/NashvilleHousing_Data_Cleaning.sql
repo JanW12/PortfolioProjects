@@ -20,7 +20,7 @@ From portfolio.nashvillehousing
 -- From portfolio.nashvillehousing
 
 Update nashvillehousing
-SET SaleDate = CONVERT(Date,SaleDate)
+SET SaleDate = CONVERT(SaleDate, Date)
 
 -- If it doesn't Update properly
 
